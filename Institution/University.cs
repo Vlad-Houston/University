@@ -15,7 +15,8 @@ namespace InternshipTest.Institution
         }
 
         public void AddStudent(Student student) {
-            
+            System.Console.WriteLine($"Name student: {student.getNameStudent()}");
+            System.Console.WriteLine($"Level knowledge: {student.getLevelKnowledge()}");
         }
     }
 }
