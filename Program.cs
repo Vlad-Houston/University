@@ -13,8 +13,6 @@ namespace InternshipTest
             University university = new University("CH.U.I.");
 
             university.AddStudent(new Student("Andrew Kostenko"));
-            // university.AddStudent(new Student("Julia Veselkina"));
-            // university.AddStudent(new Student("Maria Perechrest"));
             
             // Console.WriteLine(university.getNameUniversity());
             // Console.WriteLine(s.getNameStudent());
@@ -25,7 +23,8 @@ namespace InternshipTest
             //студент інтернатуру по середньому балу чи ні.
 
 
-            // Internship internship = new Internship("Interlink");
+            Internship internship = new Internship("Interlink");
+            internship.GetStudents(university);
             // Console.WriteLine("List of internship's students:");
 
         }
